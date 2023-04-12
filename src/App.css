@@ -1,0 +1,98 @@
+
+*{
+  margin-top: 0%;
+}
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 20px;
+}
+
+.display-container h2 {
+  margin-bottom: 10px;
+}
+
+.display-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.display-container li {
+  margin-bottom: 10px;
+}
+
+.display-container p {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.display-container button {
+  margin-right: 10px;
+}
+
+.form-wrapper {
+  display: flex;
+}
+
+.form-box {
+  border: 1px solid black;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.form-wrapper h2 {
+  margin-bottom: 10px;
+ 
+}
+
+.form-wrapper form {
+  display: flex;
+  flex-direction: column;
+  
+ 
+}
+
+.form-wrapper label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  
+}
+
+.form-wrapper label input {
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.form-wrapper button {
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  
+  color: #fff;
+  cursor: pointer;
+}
+.edit{
+ background-color: #0077cc;
+ margin-left: 25px;
+}
+.delete{
+  background-color: rgb(176, 3, 3);
+  margin-left: 30px;
+}
+
+.form-wrapper button:hover {
+  background-color: #005fa3;
+}
+.menu {
+  padding-top: 0%;
+}

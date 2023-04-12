@@ -1,0 +1,54 @@
+.main {
+display: flex;
+}
+.left-side{
+    width: 500px;
+    background-color: rgb(194, 191, 191);
+    height: 100vh;
+    overflow: auto;
+}
+.right-side{
+    background-color: rgb(255, 255, 255);
+    width:100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin: 10px 0;
+}
+
+input {
+  padding: 10px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+ border: 1px solid black;
+ width: 300px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  border: 1px solid black;
+  margin: 5px;
+}
